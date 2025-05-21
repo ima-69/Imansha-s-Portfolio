@@ -59,7 +59,7 @@ export function Education() {
                   rel="noopener noreferrer"
                   className="font-medium text-primary hover:underline"
                 >
-                  React Basics
+                  React Basics - Meta Front-End Developer 
                 </a>
                 <p className="text-sm text-muted-foreground">
                   Meta • 2025
@@ -72,7 +72,7 @@ export function Education() {
                   rel="noopener noreferrer"
                   className="font-medium text-primary hover:underline"
                 >
-                  Programming with JavaScript
+                  Programming with JavaScript - Meta Front-End Developer
                 </a>
                 <p className="text-sm text-muted-foreground">Meta • 2024</p>
               </div>
@@ -83,7 +83,7 @@ export function Education() {
                   rel="noopener noreferrer"
                   className="font-medium text-primary hover:underline"
                 >
-                  Version Control
+                  Version Control - Meta Front-End Developer
                 </a>
                 <p className="text-sm text-muted-foreground">Meta • 2024</p>
               </div>
@@ -94,7 +94,7 @@ export function Education() {
                   rel="noopener noreferrer"
                   className="font-medium text-primary hover:underline"
                 >
-                  Introduction to Front-End Development
+                  Introduction to Front-End Development - Meta Front-End Developer
                 </a>
                 <p className="text-sm text-muted-foreground">
                   Meta • 2024
