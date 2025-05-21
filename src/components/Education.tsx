@@ -1,102 +1,122 @@
-import React from 'react';
+import React from "react";
+
 export function Education() {
-  return <section id="education" className="py-20 bg-secondary/10">
+  return (
+    <section id="education" className="py-20 bg-secondary/10">
       <div className="container max-w-5xl mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold mb-2">Education</h2>
           <div className="w-20 h-1 bg-primary mx-auto"></div>
         </div>
-        <div className="space-y-8">
-          <div className="bg-background p-6 rounded-lg shadow-sm">
-            <div className="flex flex-col md:flex-row md:items-center justify-between mb-4">
-              <h3 className="text-xl font-semibold">
-                Bachelor of Science in Computer Science
-              </h3>
-              <div className="text-sm text-muted-foreground mt-2 md:mt-0">
-                2020 - 2024 (Expected)
+
+        <div className="md:grid md:grid-cols-2 md:gap-6">
+          {/* Left column: School and university details */}
+          <div className="space-y-4">
+            <div className="bg-background p-5 rounded-lg shadow-sm">
+              <div className="flex flex-col md:flex-row md:items-center justify-between mb-3">
+                <h3 className="text-xl font-semibold">
+                  Bachelor of Science in Software Engineering
+                </h3>
+                <div className="text-sm text-muted-foreground mt-2 md:mt-0">
+                  2023 - Present
+                </div>
               </div>
-            </div>
-            <div className="flex flex-col md:flex-row md:items-center justify-between mb-4">
-              <div className="text-lg">Stanford University</div>
-              <div className="text-primary font-medium">GPA: 3.8/4.0</div>
-            </div>
-            <p className="text-muted-foreground mb-4">
-              Focusing on Software Engineering, Data Structures, and Web
-              Development
-            </p>
-            <div>
-              <h4 className="font-medium mb-2">Relevant Coursework:</h4>
-              <div className="flex flex-wrap gap-2">
-                <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-sm">
-                  Data Structures & Algorithms
-                </span>
-                <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-sm">
-                  Web Development
-                </span>
-                <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-sm">
-                  Database Systems
-                </span>
-                <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-sm">
-                  Machine Learning
-                </span>
-                <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-sm">
-                  Software Engineering
-                </span>
-                <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-sm">
-                  Computer Networks
-                </span>
+              <div className="flex flex-col md:flex-row md:items-center justify-between mb-3">
+                <div className="text-lg">University of Kelaniya</div>
+                <div className="text-primary font-medium">CGPA: 3.84/4.0</div>
               </div>
+              <p className="text-muted-foreground mb-3">
+                Specializing in Net-Centric Web Application Development, Data
+                Science and Engineering Application, Health Informatic Engineering domains.
+              </p>
+            </div>
+
+            <div className="bg-background p-5 rounded-lg shadow-sm">
+              <div className="flex flex-col md:flex-row md:items-center justify-between mb-3">
+                <h3 className="text-xl font-semibold">GCE Advanced Level</h3>
+                <div className="text-sm text-muted-foreground mt-2 md:mt-0">
+                  2019 - 2022
+                </div>
+              </div>
+              <div className="flex flex-col md:flex-row md:items-center justify-between mb-3">
+                <div className="text-lg">Bandarawela Central College</div>
+                <div className="text-primary font-medium">Z-Score: 1.6086</div>
+              </div>
+              <p className="text-muted-foreground">
+                Completed coursework in Mathematics, Chemistry, and Physics
+              </p>
             </div>
           </div>
-          <div className="bg-background p-6 rounded-lg shadow-sm">
-            <div className="flex flex-col md:flex-row md:items-center justify-between mb-4">
-              <h3 className="text-xl font-semibold">High School Diploma</h3>
-              <div className="text-sm text-muted-foreground mt-2 md:mt-0">
-                2016 - 2020
-              </div>
-            </div>
-            <div className="flex flex-col md:flex-row md:items-center justify-between mb-4">
-              <div className="text-lg">Westlake High School</div>
-              <div className="text-primary font-medium">GPA: 4.0/4.0</div>
-            </div>
-            <p className="text-muted-foreground">
-              Advanced Placement in Computer Science, Mathematics, and Physics
-            </p>
-          </div>
-          <div className="mt-8">
+
+          {/* Right column: Certifications */}
+          <div className="mt-10 md:mt-0">
             <h3 className="text-xl font-semibold mb-4">Certifications</h3>
-            <div className="grid md:grid-cols-2 gap-4">
-              <div className="bg-background p-4 rounded-lg shadow-sm">
-                <h4 className="font-medium">
-                  AWS Certified Developer Associate
-                </h4>
+            <div className="grid md:grid-cols-1 gap-2">
+              <div className="bg-background p-3 rounded-lg shadow-sm">
+                <a
+                  href="https://coursera.org/share/c85eb3a3e9a9c4edddd4ba9945bdeae0"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-medium text-primary hover:underline"
+                >
+                  React Basics
+                </a>
                 <p className="text-sm text-muted-foreground">
-                  Amazon Web Services • 2023
+                  Meta • 2025
                 </p>
               </div>
-              <div className="bg-background p-4 rounded-lg shadow-sm">
-                <h4 className="font-medium">
-                  Meta Front-End Developer Professional Certificate
-                </h4>
-                <p className="text-sm text-muted-foreground">Meta • 2022</p>
+              <div className="bg-background p-3 rounded-lg shadow-sm">
+                <a
+                  href="https://coursera.org/share/f22f5f84669833e01d1cdcb2836d51f5"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-medium text-primary hover:underline"
+                >
+                  Programming with JavaScript
+                </a>
+                <p className="text-sm text-muted-foreground">Meta • 2024</p>
               </div>
-              <div className="bg-background p-4 rounded-lg shadow-sm">
-                <h4 className="font-medium">
-                  Google Data Analytics Professional Certificate
-                </h4>
-                <p className="text-sm text-muted-foreground">Google • 2022</p>
+              <div className="bg-background p-3 rounded-lg shadow-sm">
+                <a
+                  href="https://coursera.org/share/fe97f8f02aef851988e0bb9f30172cfb"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-medium text-primary hover:underline"
+                >
+                  Version Control
+                </a>
+                <p className="text-sm text-muted-foreground">Meta • 2024</p>
               </div>
-              <div className="bg-background p-4 rounded-lg shadow-sm">
-                <h4 className="font-medium">
-                  Scrum Foundation Professional Certificate
-                </h4>
+              <div className="bg-background p-3 rounded-lg shadow-sm">
+                <a
+                  href="https://coursera.org/share/5db7e0b7a6ad596101ac285c4a31cc6e"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-medium text-primary hover:underline"
+                >
+                  Introduction to Front-End Development
+                </a>
                 <p className="text-sm text-muted-foreground">
-                  CertiProf • 2021
+                  Meta • 2024
+                </p>
+              </div>
+              <div className="bg-background p-3 rounded-lg shadow-sm">
+                <a
+                  href="https://alison.com/certification/check/2y10A0tLqGhwtPFhgtYHYhOF3eUnYu0S59Pj4GsqzGAMzeZK0QTjYkhK"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-medium text-primary hover:underline"
+                >
+                  Diploma in C Programming
+                </a>
+                <p className="text-sm text-muted-foreground">
+                  Alison • 2023
                 </p>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 }
