@@ -26,7 +26,7 @@ export function Hero() {
       <div className="container max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-12">
         <div className="flex-1 space-y-6">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight">
-            Hi, I'm <span className="text-primary">Imans Dilshan</span>
+            Hi, I'm <span className="text-primary">Imansha Dilshan</span>
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground">
             Software Engineering Undergraduate | Full Stack Developer
