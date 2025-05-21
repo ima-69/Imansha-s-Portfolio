@@ -20,7 +20,7 @@ export function Resume() {
               Download Resume (PDF)
             </a>
           </div>
-          <div className="mt-12 grid md:grid-cols-2 gap-8 w-full">
+          {/* <div className="mt-12 grid md:grid-cols-2 gap-8 w-full">
             <div>
               <h3 className="text-xl font-semibold mb-4 pb-2 border-b">
                 Work Experience
@@ -91,7 +91,7 @@ export function Resume() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>;

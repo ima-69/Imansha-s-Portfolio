@@ -2,26 +2,26 @@ import React from 'react';
 import { Clock, ArrowRight } from 'lucide-react';
 export function Blog() {
   const blogPosts = [{
-    title: 'Getting Started with React Hooks',
-    excerpt: 'Learn how to use React Hooks to simplify your components and manage state more efficiently.',
-    date: 'October 15, 2023',
+    title: 'Mastering React: A Complete Roadmap for Aspiring Developers',
+    excerpt: 'React is a popular JavaScript library for building web apps. This roadmap guides beginners and pros through learning it fully.',
+    date: 'Apr 16, 2025',
     readTime: '5 min read',
-    image: 'https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
-    link: '#'
+    image: 'https://miro.medium.com/v2/resize:fit:1100/format:webp/1*A5iZ1FiU0tfZkUJxf36YKw.jpeg',
+    link: 'https://medium.com/@imansha.idr/mastering-react-a-complete-roadmap-for-aspiring-developers-224f2305dd67'
   }, {
-    title: 'Building a REST API with Node.js and Express',
-    excerpt: 'A step-by-step guide to creating a RESTful API using Node.js, Express, and MongoDB.',
-    date: 'September 22, 2023',
+    title: 'A Cheerful Guide to Software Licences and Copyright Law',
+    excerpt: 'Learn open source licenses and copyright basics in a fun, simple guide to help developers write great code with confidence.',
+    date: 'Jun 24, 2024',
     readTime: '8 min read',
-    image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
-    link: '#'
+    image: 'https://miro.medium.com/v2/resize:fit:1100/format:webp/1*4N6UXotiPCnna73mKSPV7A.jpeg',
+    link: 'https://medium.com/@imansha.idr/a-cheerful-guide-to-software-licences-and-copyright-law-71a185aad9cc'
   }, {
-    title: 'Mastering CSS Grid Layout',
-    excerpt: 'Deep dive into CSS Grid Layout and learn how to create complex layouts with ease.',
-    date: 'August 10, 2023',
-    readTime: '6 min read',
-    image: 'https://images.unsplash.com/photo-1507721999472-8ed4421c4af2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
-    link: '#'
+    title: 'Stored Procedures in MySQL',
+    excerpt: 'A quick guide to MySQL stored procedures: what they are, pros and cons, and how to write and use them effectively.',
+    date: 'Feb 24, 2024',
+    readTime: '7 min read',
+    image: 'https://miro.medium.com/v2/resize:fit:1100/format:webp/1*sVCK49TncOwTXsOojRBOIg.png',
+    link: 'https://medium.com/@imansha.idr/stored-procedures-in-mysql-e507b77e29b4'
   }];
   return <section id="blog" className="py-20 bg-secondary/10">
       <div className="container max-w-5xl mx-auto px-4">
@@ -50,7 +50,10 @@ export function Blog() {
                 <p className="text-muted-foreground text-sm mb-4">
                   {post.excerpt}
                 </p>
-                <a href={post.link} className="inline-flex items-center text-sm font-medium text-primary hover:text-primary/80 transition-colors">
+                <a href={post.link} 
+                  className="inline-flex items-center text-sm font-medium text-primary hover:text-primary/80 transition-colors"
+                  target='_blank'
+                  >
                   Read more
                   <ArrowRight size={14} className="ml-1" />
                 </a>
@@ -58,7 +61,10 @@ export function Blog() {
             </article>)}
         </div>
         <div className="mt-12 text-center">
-          <a href="#" className="inline-flex items-center px-6 py-3 bg-secondary text-secondary-foreground rounded-md hover:bg-secondary/80 transition-colors">
+          <a href="https://medium.com/@imansha.idr" 
+            className="inline-flex items-center px-6 py-3 bg-secondary text-secondary-foreground rounded-md hover:bg-secondary/80 transition-colors"
+            target='_blank'
+            >
             View All Posts
           </a>
         </div>
