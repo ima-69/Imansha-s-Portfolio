@@ -2,13 +2,12 @@ import React from 'react';
 import { Mail, Download, ArrowDown } from 'lucide-react';
 import heroImage from '../assets/hero.jpg';
 
-
 export function Hero() {
   const scrollToAbout = () => {
     const element = document.getElementById('about');
     if (element) {
       element.scrollIntoView({
-        behavior: 'smooth'
+        behavior: 'smooth',
       });
     }
   };
@@ -17,7 +16,7 @@ export function Hero() {
     const element = document.getElementById('contact');
     if (element) {
       element.scrollIntoView({
-        behavior: 'smooth'
+        behavior: 'smooth',
       });
     }
   };
@@ -33,14 +32,13 @@ export function Hero() {
             Software Engineering Undergraduate | Full Stack Developer
           </p>
           <p className="text-lg text-muted-foreground max-w-md">
-            I build accessible, user-friendly websites and applications with
-            modern technologies.
+            I build accessible, user-friendly websites and applications with modern technologies.
           </p>
-          <div className="flex gap-4 pt-4">
+          <div className="flex flex-col md:flex-row gap-4 pt-4">
             {/* Get in touch button with smooth scroll */}
             <button
               onClick={scrollToContact}
-              className="px-6 py-3 bg-primary text-primary-foreground rounded-md hover:bg-primary/90 transition-colors flex items-center gap-2"
+              className="w-full md:w-auto px-6 py-3 bg-primary text-primary-foreground rounded-md hover:bg-primary/90 transition-colors flex items-center justify-center gap-2"
             >
               <Mail size={18} />
               Get in touch
@@ -49,7 +47,7 @@ export function Hero() {
             {/* Download Resume link styled as button */}
             <a
               href="https://drive.google.com/uc?export=download&id=11OinkBLLRELMvEGWMS2SifIjNy1hckSq"
-              className="px-6 py-3 bg-secondary text-secondary-foreground rounded-md hover:bg-secondary/80 transition-colors flex items-center gap-2"
+              className="w-full md:w-auto px-6 py-3 bg-secondary text-secondary-foreground rounded-md hover:bg-secondary/80 transition-colors flex items-center justify-center gap-2"
             >
               <Download size={18} />
               Download Resume (PDF)
