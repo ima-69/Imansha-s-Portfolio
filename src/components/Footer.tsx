@@ -1,7 +1,11 @@
 import React from 'react';
-import { Github, Linkedin, Twitter, Instagram, Mail } from 'lucide-react';
+import { Github, Linkedin, Twitter, Instagram, Mail, ArrowUp } from 'lucide-react';
 
 export function Footer() {
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   return (
     <footer className="bg-secondary/20 py-10">
       <div className="container max-w-5xl mx-auto px-4">
@@ -10,7 +14,9 @@ export function Footer() {
             <h3 className="text-xl font-bold">Imansha Dilshan</h3>
             <p className="text-muted-foreground">Software Engineering Undergraduate</p>
           </div>
-          <div className="flex space-x-4">
+
+          {/* Social icons */}
+          <div className="flex items-center space-x-4">
             <a
               href="https://github.com/ima-69"
               target="_blank"
@@ -54,6 +60,15 @@ export function Footer() {
             >
               <Mail size={20} />
             </a>
+
+            {/* Back to top arrow button */}
+            <button
+              onClick={scrollToTop}
+              aria-label="Back to top"
+              className="ml-6 p-3 rounded-full bg-primary text-white hover:bg-primary-dark transition-colors shadow-md focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+            >
+              <ArrowUp size={20} />
+            </button>
           </div>
         </div>
 
