@@ -15,7 +15,7 @@ export function Footer() {
             <p className="text-muted-foreground">Software Engineering Undergraduate</p>
           </div>
 
-          {/* Social icons */}
+          {/* Social icons + back to top arrow */}
           <div className="flex items-center space-x-4">
             <a
               href="https://github.com/ima-69"
@@ -65,9 +65,9 @@ export function Footer() {
             <button
               onClick={scrollToTop}
               aria-label="Back to top"
-              className="ml-6 p-3 rounded-full bg-primary text-white hover:bg-primary-dark transition-colors shadow-md focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+              className="ml-6 p-3 rounded-full bg-primary hover:bg-primary-dark transition-colors shadow-md focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
             >
-              <ArrowUp size={20} />
+              <ArrowUp size={20} className="text-white dark:text-black" />
             </button>
           </div>
         </div>
