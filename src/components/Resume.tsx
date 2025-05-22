@@ -15,7 +15,7 @@ export function Resume() {
               Download my resume to learn more about my experience, skills, and
               qualifications.
             </p>
-            <a href="https://drive.google.com/uc?export=download&id=1gNHD5iJcyBRN_l1bT9L768rp2e50kM_Z" className="inline-flex items-center px-6 py-3 bg-primary text-primary-foreground rounded-md hover:bg-primary/90 transition-colors">
+            <a href="https://drive.google.com/uc?export=download&id=1NwBnJOHccFtGuPc6Ahdv8AYm549Z-Glj" className="inline-flex items-center px-6 py-3 bg-primary text-primary-foreground rounded-md hover:bg-primary/90 transition-colors">
               <Download size={18} className="mr-2" />
               Download Resume (PDF)
             </a>
