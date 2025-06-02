@@ -46,7 +46,7 @@ export function Hero() {
 
             {/* Download Resume link styled as button */}
             <a
-              href="https://drive.google.com/uc?export=download&id=1msBGpwF_MdDkjU3Vzf25z3tfZKO-9pDt"
+              href="https://drive.google.com/uc?export=download&id=1DFlNRkXjnb2IfReUdvtwqTBhFNraESEH"
               className="w-full md:w-auto px-6 py-3 bg-secondary text-secondary-foreground rounded-md hover:bg-secondary/80 transition-colors flex items-center justify-center gap-2"
             >
               <Download size={18} />
