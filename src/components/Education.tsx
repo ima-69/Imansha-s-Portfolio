@@ -23,7 +23,7 @@ export function Education() {
               </div>
               <div className="flex flex-col md:flex-row md:items-center justify-between mb-3">
                 <div className="text-lg">University of Kelaniya</div>
-                <div className="text-primary font-medium">CGPA: 3.86/4.0</div>
+                <div className="text-primary font-medium">CGPA: 3.90/4.0</div>
               </div>
               <p className="text-muted-foreground mb-3">
                 Specializing in Net-Centric Web Application Development, Data
